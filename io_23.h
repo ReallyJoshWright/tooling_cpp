@@ -8,6 +8,18 @@
 #include <map>
 #include <format>
 
+namespace short_names {
+    using std::string;
+    using std::vector;
+    using std::map;
+    using std::println;
+    using std::print;
+    using std::expected;
+    using std::unexpected;
+    using std::format;
+    namespace fs = std::filesystem;
+}
+
 namespace io {
     inline std::expected<bool, std::string>
     printFileContents(std::string filename) {

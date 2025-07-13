@@ -1,0 +1,22 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O0",
+      "-std=c++23",
+      "-I/home/josh/.config/.cppc",
+      "../io_23.h",
+      "-o",
+      "test",
+      "./src/main.cpp",
+    ],
+    "directory": "/home/josh/Projects/tooling_cpp/tests",
+    "file": "/home/josh/Projects/tooling_cpp/tests/src/main.cpp",
+    "output": "/home/josh/Projects/tooling_cpp/tests/test"
+  }
+]
